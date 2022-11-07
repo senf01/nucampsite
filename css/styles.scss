@@ -8,7 +8,6 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
-
 body {
     font-family: $body-font;
 }
@@ -36,8 +35,7 @@ header h2 {
     background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
     color: white;
 }
-
-
+  
 .navbar {
     background-color: $color-mid;
 }
@@ -49,11 +47,16 @@ header h2 {
 .carousel-caption {
     background-color: $color-black-transparent;
 }
-
-
+  
 header {
     h2 {
         color: $color-pale;
     }
-}
-
+}    
+  
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+} 
